@@ -73,7 +73,7 @@ def clickImg(img, timeout=3, threshold = 0.7, randomTarget = False ):
 def writeText( sText="" ):
     if len(sText)>0 :
         pyautogui.write( sText )
-
+ 
 if __name__ == '__main__': 
 
     ## Loads image of login stuff
