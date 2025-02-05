@@ -84,6 +84,7 @@ if __name__ == '__main__':
 
     ## Press login button if any
     clickImg( iniciarSessao )
+    
     pyautogui.sleep( 0.2 )
     clickImg( loginUsername )
     writeText( username )
